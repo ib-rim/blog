@@ -1,11 +1,27 @@
 @font-face {
-    font-family: "Vercetti";
-    src: url("/assets/fonts/Vercetti-Regular.woff");
+    font-family: "Heebo";
+    src: url("/assets/fonts/Heebo-VariableFont_wght.woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Vercetti";
-    src: url("/assets/fonts/Vercetti-Regular.woff2");
+    font-family: "Heebo";
+    src: url("/assets/fonts/Heebo-VariableFont_wght.woff2");
     font-display: swap;
+}
+
+:root {
+    --shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+html {
+    font-family: "Heebo";
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #1e90ff;
 }
