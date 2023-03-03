@@ -12,12 +12,15 @@
 .heading {
     position: relative;
     color: black;
-    margin-bottom: 1em;
     width: fit-content;
 }
 
 .description {
     max-width: 30em;
+}
+
+.subheading {
+    margin-block: 1em;
 }
 
 .posts {

@@ -8,14 +8,14 @@ export default function Home() {
             <main className={styles.main}>
                 <div>
                     <h1 className={styles.heading}>Ibrahim Bashir's Blog</h1>
-                    <h2>What's this for?</h2>
+                    <h2 className={styles.subheading}>What's this for?</h2>
                     <ul className={styles.description}>
                         <li>Anything I've learnt as I develop my skills and gain experience in Front End Development and UX Design.</li>
                         <li>Any achievements I'm proud of; both professional and personal.</li>
                     </ul>
                 </div>
                 <nav>
-                    <h2>Blog Posts</h2>
+                    <h2 className={styles.subheading}>Blog Posts</h2>
                     <ul className={styles.posts}>
                     </ul>
                 </nav>
