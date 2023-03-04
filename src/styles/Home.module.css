@@ -1,11 +1,11 @@
-.main {
+.container {
     padding: 3em;
     font-weight: 300;
     height: 100vh;
     height: 100dvh;
 }
 
-.main ::marker {
+.container ::marker {
     color: #1e90ff;
 }
 
@@ -37,14 +37,14 @@
 
 @media (min-width: 800px) {
 
-    .main {
+    .container {
         display: flex;
         padding: 4em;
         justify-content: center;
         gap: 4em;
     }
 
-    .main > * {
+    .container > * {
         flex: 1;
     }
     

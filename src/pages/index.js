@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Home() {
     return (
         <PageWrapper>
-            <main className={styles.main}>
+            <div className={styles.container}>
                 <div>
                     <h1 className={styles.heading}>Ibrahim Bashir&apos;s Blog</h1>
                     <h2 className={styles.subheading}>What&apos;s this for?</h2>
@@ -21,7 +21,7 @@ export default function Home() {
                         <li><Link href='/' className={styles.postLink}>The 15 Principles of Good Service Design</Link></li>
                     </ul>
                 </nav>
-            </main>
+            </div>
         </PageWrapper>
     )
 }
