@@ -1,12 +1,7 @@
 .container {
     padding: 3em;
-    font-weight: 300;
     height: 100vh;
     height: 100dvh;
-}
-
-.container ::marker {
-    color: #1e90ff;
 }
 
 .heading {

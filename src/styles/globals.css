@@ -4,6 +4,11 @@
 
 html {
     font-family: "Heebo";
+    font-weight: 300;
+}
+
+::marker {
+    color: #1e90ff;
 }
 
 button {
