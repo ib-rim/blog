@@ -1,0 +1,38 @@
+.main {
+    padding: 3em;
+    counter-set: principleNum;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.principle {
+    display: grid;
+    align-items: center;
+    gap: 2em;
+    margin: 3em 0em;
+}
+
+.principleName::before {
+    counter-increment: principleNum;
+    content: counter(principleNum) ". ";
+}
+
+.principleText {
+    margin-top: 0.5em;
+}
+
+@media (min-width: 800px) {
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .principle {
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 3fr;
+        margin: 3em 20em;
+    }
+}
