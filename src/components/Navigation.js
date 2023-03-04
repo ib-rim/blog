@@ -8,13 +8,10 @@ export default function Navigation() {
     const currentRoute = router.pathname;
 
     return (
-        <>
+        <nav className={styles.navigation}>
             {currentRoute !== '/' ?
-                <nav className={styles.navigation}>
-                    <Link href="/" className={styles.navigationLink}>⬅ <span>Post Title</span></Link>
-                    <Link href="/" className={styles.navigationLink}>Home</Link>
-                    <Link href="/" className={styles.navigationLink}>➡ <span>Post Title</span></Link>
-                </nav> : <></>}
-        </>
+                <Link href="/" className={styles.navigationLink}>Home</Link>
+                : <></>}
+        </nav>
     )
 }

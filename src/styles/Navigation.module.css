@@ -1,11 +1,19 @@
 .navigation {
-    display: flex;
-    justify-content: space-around;
+    --top-spacing: 10px;
+    padding: calc(var(--top-spacing) + 0.5em) 0.5em;
+}
+
+.navigation::after {
+    content: '';
+    position: absolute;
+    background-color: #1e90ff;
+    height: var(--top-spacing);
+    width: 100%;
+    inset: 0;
 }
 
 .navigationLink {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    background-color: #1e90ff;
+    padding: 1em 1em 0.5em;
 }
