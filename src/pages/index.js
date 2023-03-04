@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Home() {
     return (
-        <PageWrapper>
+        <PageWrapper title='Blog'>
             <main className={styles.container}>
                 <div>
                     <h1 className={styles.heading}>Ibrahim Bashir&apos;s Blog</h1>
