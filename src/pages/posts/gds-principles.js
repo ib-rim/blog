@@ -1,6 +1,7 @@
 import PageWrapper from '@/components/PageWrapper';
 import styles from '@/styles/GDSPrinciples.module.css'
 import Image from 'next/image';
+import FeedTheNeed from '@/assets/img/feedtheneed.jpg'
 
 export default function GDSPrinciples() {
     return (
@@ -10,7 +11,7 @@ export default function GDSPrinciples() {
                 <div className={styles.principles}>
                     <section className={styles.principle}>
                         <div className={styles.principleExample}>
-                            <Image fill src="/assets/img/feedtheneed.jpg" alt="Graffiti that reads Feed the 'need'" />
+                            <Image fill src={FeedTheNeed} alt="Graffiti that reads Feed the 'need'" />
                         </div>
                         <div>
                             <h2 className={styles.principleName}>Start with user needs</h2>
