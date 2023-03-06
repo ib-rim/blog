@@ -16,12 +16,12 @@ export default function GDSPrinciples() {
                             <h2 className={styles.principleName}>Start with user needs</h2>
                             <div className={styles.principleText}>
                                 <p>Any well designed service should prioritise the user and their needs.</p>
-                                <p>Even an efficient, affordable and easy to run service is practically useless if it doesn't help the user achieve their end goals.</p>
+                                <p>Even an efficient, affordable and easy to run service is practically useless if it doesn&apos;t help the user achieve their end goals.</p>
                                 <p>User research should be performed to identify these needs from the start and keep being performed to make sure they have not changed and are being met.</p>
                                 <div>
                                     <h3>Important Notes:</h3>
                                     <ul>
-                                        <li>Don't assume - use the results of user research to identify the user's requirements.</li>
+                                        <li>Don&apos;t assume - use the results of user research to identify the user&apos;s requirements.</li>
                                         <li>What a user wants or asks for does not always match what they need.</li>
                                     </ul>
                                 </div>
