@@ -86,7 +86,7 @@ export default function GDSPrinciples() {
                                 <p>Work in an agile way.</p>
                                 <p>Learn from failures, be able to deal with uncertainty and respond to change.</p>
                                 <p>Start with a Minimum Viable Prototype, test it with real users as early as possible and continue improving until all requirements have been met.</p>
-                                <p>It's easier to abandon or restart a service while it's still a prototype than a multiyear time sink.</p>
+                                <p>It&apos;s easier to abandon or restart a service while it&apos;s still a prototype than a multiyear time sink.</p>
                             </div>
                         </div>
                     </section>
