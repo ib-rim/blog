@@ -18,7 +18,7 @@
     grid-template-rows: 0.5fr 1fr;
     align-items: center;
     gap: 2em;
-    margin: 3em 0em;
+    margin: 5em 0em;
 }
 
 .principleName::before {
@@ -26,22 +26,23 @@
     content: counter(principleNum) ". ";
 }
 
-.principleText {
+.principleDescription {
     margin-top: 0.5em;
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.principleExample {
+.principleImage {
     position: relative;
     height: 100%;
     width: 100%;
     box-shadow: var(--shadow);
     overflow: hidden;
+    border-bottom: 3px solid var(--highlight-color);
 }
 
-.principleExample img {
+.principleImage img {
     object-fit: cover;
 }
 
@@ -54,6 +55,26 @@
     .principle {
         grid-auto-flow: column;
         grid-template-rows: auto;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .principleImage {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .principleText {
+        grid-column-start: 3;
+        grid-column-end: 6;
+    }
+
+    .principle:nth-child(2n) .principleImage {
+        grid-column-start: 4;
+        grid-column-end: 6;
+    }
+
+    .principle:nth-child(2n) .principleText {
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 }
