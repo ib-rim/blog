@@ -17,8 +17,10 @@ export default function Home() {
                 <nav>
                     <h2 className={styles.subheading}>Blog Posts</h2>
                     <ul className={styles.posts}>
-                        <li><Link href='/posts/gds-principles' className={styles.postLink}>The 10 Design Principles of the Government Digital Service (WIP)</Link></li>
-                        <li><Link href='/' className={styles.postLink}>The 15 Principles of Good Service Design (WIP)</Link></li>
+                        <li><Link href='/posts/gds-principles' className={styles.postLink}>The 10 Design Principles of the Government Digital Service</Link></li>
+                        {/* <li><Link href='/' className={styles.postLink}>The 15 Principles of Good Service Design</Link></li>
+                        <li><Link href='/' className={styles.postLink}>Climbing for Golden Strawberries (Celeste)</Link></li>
+                        <li><Link href='/' className={styles.postLink}>Ascending the Pantheon of Hallownest (Hollow Knight)</Link></li> */}
                     </ul>
                 </nav>
             </main>
