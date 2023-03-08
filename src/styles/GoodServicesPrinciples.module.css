@@ -1,0 +1,61 @@
+.main {
+    padding: 3em;
+    counter-set: principleNum;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.principles {
+    margin-top: 3em;
+}
+
+.principle {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 2em;
+    margin-block: 3em;
+}
+
+.principleName::before {
+    counter-increment: principleNum;
+    content: counter(principleNum) ". ";
+}
+
+.principleDescription {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.principleImage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    border-bottom: 3px solid var(--highlight-color);
+}
+
+.principleImage img {
+    object-fit: cover;
+}
+
+@media (min-width: 800px) {
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .principles {
+        display: grid;
+        gap: 3em 5em;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 70em;
+        margin-inline: auto;
+    }
+}
