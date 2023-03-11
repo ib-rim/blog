@@ -1,6 +1,21 @@
 import PageWrapper from '@/components/PageWrapper';
 import styles from '@/styles/GoodServicesPrinciples.module.css'
 import Image from 'next/image';
+import GoogleSearch from '@/assets/img/good-service/googlesearch.png';
+import BlankBillboard from '@/assets/img/good-service/blankbillboard.png';
+import NoWalkingSign from '@/assets/img/good-service/nowalkingsign.png';
+import BowlingRamp from '@/assets/img/good-service/bowlingramp.png';
+import RecycleBin from '@/assets/img/good-service/recyclebin.png';
+import PlatformerControls from '@/assets/img/good-service/platformercontrols.png';
+import Siloes from '@/assets/img/good-service/siloes.png';
+import ObviousName from '@/assets/img/good-service/obviousname.png';
+import WeakestLink from '@/assets/img/good-service/weakestlink.png';
+import DeadEnd from '@/assets/img/good-service/deadend.png';
+import AccessibleStairs from '@/assets/img/accessiblestairs.png';
+import Escalator from '@/assets/img/good-service/escalator.png';
+import Clocks from '@/assets/img/good-service/clocks.png';
+import QuestionMark from '@/assets/img/good-service/questionmark.png';
+import HumanService from '@/assets/img/good-service/humanservice.png';
 
 export default function GoodServicesPrinciples() {
     return (
@@ -10,7 +25,7 @@ export default function GoodServicesPrinciples() {
                 <div className={styles.principles}>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={GoogleSearch} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be easy to find</h2>
@@ -22,7 +37,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={BlankBillboard} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Clearly explain its purpose</h2>
@@ -34,7 +49,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={NoWalkingSign} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Set a user&apos;s expectations of the service</h2>
@@ -46,7 +61,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={BowlingRamp} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Enable each user to complete the outcome they set out to do</h2>
@@ -58,7 +73,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={RecycleBin} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Work in a way that is familiar</h2>
@@ -70,7 +85,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={PlatformerControls} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Require no prior knowledge to use</h2>
@@ -82,7 +97,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={Siloes} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be agnostic of organisational structures</h2>
@@ -94,7 +109,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={ObviousName} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Require the minimum possible steps to complete</h2>
@@ -106,7 +121,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={WeakestLink} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be consistent throughout</h2>
@@ -118,7 +133,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={DeadEnd} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Have no dead ends</h2>
@@ -130,7 +145,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={AccessibleStairs} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be usable by everyone, equally</h2>
@@ -142,7 +157,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={Escalator} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Encourage the right behaviours from users and service providers</h2>
@@ -154,7 +169,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={Clocks} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Quickly respond to change</h2>
@@ -166,7 +181,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={QuestionMark} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Clearly explain why a decision has been made</h2>
@@ -178,7 +193,7 @@ export default function GoodServicesPrinciples() {
                     </section>
                     <section className={styles.principle}>
                         <div className={styles.principleImage}>
-                            <Image fill src={''} alt="" />
+                            <Image fill src={HumanService} alt="" />
                         </div>
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Make it easy to get human assistance</h2>
