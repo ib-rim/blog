@@ -30,8 +30,10 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be easy to find</h2>
                             <div className={styles.principleDescription}>
-                                <p>Be easy to find</p>
-                                <p>Be easy to find</p>
+                                <p>The users journey usally starts on a search engine (like Google) which means the name of a service is extremely important.</p>
+                                <p>Using a name that reflects what the user is trying to do will help both the user and the organisation remember the ultimate purpose of the service.</p>
+                                <p>Service names should be verbs and not nouns and definitely not acronyms.</p>
+                                <p>Use words that users will understand (e.g. &apos;Help with payment&apos; rather than &apos;Fee remission&apos;)</p>
                             </div>
                         </div>
                     </section>
@@ -42,8 +44,16 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Clearly explain its purpose</h2>
                             <div className={styles.principleDescription}>
-                                <p>Clearly explain its purpose</p>
-                                <p>Clearly explain its purpose</p>
+                                <div>
+                                    <p>A user with no prior knowledge must understand:</p>
+                                    <ul>
+                                        <li>who the service is for</li>
+                                        <li>what it does</li>
+                                        <li>why it does it</li>
+                                        <li>how it does it</li>
+                                    </ul>
+                                </div>
+                                <p>Explain this through the service name, description and even the interface.</p>
                             </div>
                         </div>
                     </section>
@@ -54,8 +64,16 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Set a user&apos;s expectations of the service</h2>
                             <div className={styles.principleDescription}>
-                                <p>Set a user&apos;s expectations of the service</p>
-                                <p>Set a user&apos;s expectations of the service</p>
+                                <div>
+                                <p>Clearly explain what is needed from the user to complete the service and what the user can expect from the service provider in return. This includes:</p>
+                                <ul>
+                                    <li>how long something will take to complete</li>
+                                    <li>how much it will cost</li>
+                                    <li>if there are restrictions on who or how you can use the service</li>
+                                </ul>
+                                </div>
+                                <p>understand &apos;universal&apos;, &apos;assumed&apos;, and &apos;outlier&apos; expectations that the user might have based on research of similar services.</p>
+                                <p>Meet as many of these expectations as possible and explain to the user why any haven&apos;t been met.</p>
                             </div>
                         </div>
                     </section>
@@ -66,8 +84,11 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Enable each user to complete the outcome they set out to do</h2>
                             <div className={styles.principleDescription}>
-                                <p>Enable each user to complete the outcome they set out to do</p>
-                                <p>Enable each user to complete the outcome they set out to do</p>
+                                <p>Understand what the user is trying to achieve</p>
+                                <p>Get a good understanding of who else delivers parts of the service and how they relate to your organisation</p>
+                                <p>If it isn&apos;t feasible to deliver the entire service, define a rational scope for your part of the service</p>
+                                <p>Consider which part of the service should be delivered first - it does not need to be delivered all at once. Start small and build and improve in small increments.</p>
+                                <p>Examine how data is shared - are there things the user should have access to make the service easier or things you need from other organisations to make the service better?</p>
                             </div>
                         </div>
                     </section>
@@ -78,8 +99,9 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Work in a way that is familiar</h2>
                             <div className={styles.principleDescription}>
-                                <p>Work in a way that is familiar</p>
-                                <p>Work in a way that is familiar</p>
+                                <p>Conform to established customs that benefit the user but avoid customs that negatively affect the user or could be improved.</p>
+                                <p>Test all customs to make sure they are aligned with users&apos; expectations.</p>
+                                <p>Share any changes you make so better patterns can become ubiquitous.</p>
                             </div>
                         </div>
                     </section>
