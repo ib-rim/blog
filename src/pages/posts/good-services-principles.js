@@ -33,7 +33,7 @@ export default function GoodServicesPrinciples() {
                                 <p>The users journey usally starts on a search engine (like Google) which means the name of a service is extremely important.</p>
                                 <p>Using a name that reflects what the user is trying to do will help both the user and the organisation remember the ultimate purpose of the service.</p>
                                 <p>Service names should be verbs and not nouns and definitely not acronyms.</p>
-                                <p>Use words that users will understand (e.g. &apos;Help with payment&apos; rather than &apos;Fee remission&apos;)</p>
+                                <p>Use words that users will understand (e.g. &apos;Help with payment&apos; rather than &apos;Fee remission&apos;).</p>
                             </div>
                         </div>
                     </section>
@@ -84,9 +84,9 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Enable each user to complete the outcome they set out to do</h2>
                             <div className={styles.principleDescription}>
-                                <p>Understand what the user is trying to achieve</p>
-                                <p>Get a good understanding of who else delivers parts of the service and how they relate to your organisation</p>
-                                <p>If it isn&apos;t feasible to deliver the entire service, define a rational scope for your part of the service</p>
+                                <p>Understand what the user is trying to achieve.</p>
+                                <p>Get a good understanding of who else delivers parts of the service and how they relate to your organisation.</p>
+                                <p>If it isn&apos;t feasible to deliver the entire service, define a rational scope for your part of the service.</p>
                                 <p>Consider which part of the service should be delivered first - it does not need to be delivered all at once. Start small and build and improve in small increments.</p>
                                 <p>Examine how data is shared - are there things the user should have access to make the service easier or things you need from other organisations to make the service better?</p>
                             </div>
@@ -112,8 +112,9 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Require no prior knowledge to use</h2>
                             <div className={styles.principleDescription}>
-                                <p>Require no prior knowledge to use</p>
-                                <p>Require no prior knowledge to use</p>
+                                <p>This can be achieved by following all of the prior principles.</p>
+                                <p>There is no service that will be used just by people who have used it before.</p>
+                                <p>Even presumptions users make from using similar services may still need to be explained.</p>
                             </div>
                         </div>
                     </section>
@@ -124,8 +125,10 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be agnostic of organisational structures</h2>
                             <div className={styles.principleDescription}>
-                                <p>Be agnostic of organisational structures</p>
-                                <p>Be agnostic of organisational structures</p>
+                                <p>The service should work in a way that does not unnecessarily expose the user to the internal structures of the organisation providing the service.</p>
+                                <p>Identify potential silos in the organisation or with other organisations that may be providing parts of the same service.</p>
+                                <p>If the operating model can not be changed, change the way communicate and collaboration is done.</p>
+                                <p>Create a permissive environment for collaboration, like shared standards, goals and incentives, to help people work together.</p>
                             </div>
                         </div>
                     </section>
@@ -136,8 +139,10 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Require the minimum possible steps to complete</h2>
                             <div className={styles.principleDescription}>
-                                <p>Require the minimum possible steps to complete</p>
-                                <p>Require the minimum possible steps to complete</p>
+                                <p>This can mean proactively meeting a user&apos;s needs without them instigating an interaction with your organisation.</p>
+                                <p>Review where decisions need to be made in the service and where steps can be added or merged</p>
+                                <p>Allow users to focus on one task at a time splitting a step where users make multiple decisions</p>
+                                <p>The space between steps of the service can be designed with purpose to give the user visibility and control of a decision. Consider slowing down major decision steps or speeding up areas where decisions are minor.</p>
                             </div>
                         </div>
                     </section>
@@ -148,8 +153,10 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be consistent throughout</h2>
                             <div className={styles.principleDescription}>
-                                <p>Be consistent throughout</p>
-                                <p>Be consistent throughout</p>
+                                <p>The service should look and feel like one service throughout, regardless of how it is delivered. Language, visual styles and interaction patterns should all be consistent.</p>
+                                <p>If one part of the service does not follow the principles of another (like using inclusive pronouns), it creates distrust in the service and organisation.</p>
+                                <p>A chain is only as strong as the weakest link - focus on the abilities of the whole organisation and not just the skills of superstar players.</p>
+                                <p>Consistent ≠ Uniform: allow staff to respond individually to users or problems to deliver the same experience in the best way for each situation.</p>
                             </div>
                         </div>
                     </section>
@@ -160,8 +167,10 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Have no dead ends</h2>
                             <div className={styles.principleDescription}>
-                                <p>Have no dead ends</p>
-                                <p>Have no dead ends</p>
+                                <p>A service should direct all users to a clear outcome, regardless of whether the user is eligible or suitable to use the service. No user should be left behind or standed within a service without knowing how to continue.</p>
+                                <p>Evenly distribute the complexity of the service regardless of the path the user takes.</p>
+                                <p>Ensure the service is inclusive - be aware of presumptions you are making about what the user can do and allow different ways to complete the same goal.</p>
+                                <p>Treat new technologies as progressive enhancements on the last - if the service fails, the user should still be able to rely on the technology or method that came before it.</p>
                             </div>
                         </div>
                     </section>
