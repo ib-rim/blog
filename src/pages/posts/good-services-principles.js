@@ -181,8 +181,10 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Be usable by everyone, equally</h2>
                             <div className={styles.principleDescription}>
-                                <p>Be usable by everyone, equally</p>
-                                <p>Be usable by everyone, equally</p>
+                                <p>Users should feel that their needs are understood and represented in a way that makes them feel accepted and comfortable using the service.</p>
+                                <p>The service should be operable in different ways (phone, computer, browsers, mouse, keyboard) and information needs to be provided in different formats (text, audio, braille).</p>
+                                <p>Use words that everyone uses so that information can actually be understood by everyone.</p>
+                                <p>A lack of diversity in the development team often leads to a lack of inclusion in the service.</p>
                             </div>
                         </div>
                     </section>
@@ -193,8 +195,9 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Encourage the right behaviours from users and service providers</h2>
                             <div className={styles.principleDescription}>
-                                <p>Encourage the right behaviours from users and service providers</p>
-                                <p>Encourage the right behaviours from users and service providers</p>
+                                <p>The service should encourage safe, productive behaviours from users and staff that are mutually beneficial.</p>
+                                <p>For users, the service should not set a precedent for behaviours that may put the user at harm in other circumstances, for example, providing data without knowing its use.</p>
+                                <p>For staff, this means they should not be incentivised to provide a bad service to users, for example, through short call-handling targets.</p>
                             </div>
                         </div>
                     </section>
@@ -205,8 +208,9 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Quickly respond to change</h2>
                             <div className={styles.principleDescription}>
-                                <p>Quickly respond to change</p>
-                                <p>Quickly respond to change</p>
+                                <p>Make it easy for users to change things about themselves.</p>
+                                <p>The service should respond quickly and adaptively to a change in a user's circumstances. For example, if a user changes their phone number online, their new phone number should be recognised in a face-to-face service.</p>
+                                <p>Not all change should be universal; always give users the ability to share only what they want to share with the people they want to share it with.</p>
                             </div>
                         </div>
                     </section>
@@ -217,8 +221,8 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Clearly explain why a decision has been made</h2>
                             <div className={styles.principleDescription}>
-                                <p>Clearly explain why a decision has been made</p>
-                                <p>Clearly explain why a decision has been made</p>
+                                <p>When a decision is made within a service, it should be obvious to a user why this decision has been made and clearly communicated at the point at which it's made.</p>
+                                <p>A user should also be given a route to contest this decision if they need to.</p>
                             </div>
                         </div>
                     </section>
@@ -229,8 +233,9 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Make it easy to get human assistance</h2>
                             <div className={styles.principleDescription}>
-                                <p>Make it easy to get human assistance</p>
-                                <p>Make it easy to get human assistance</p>
+                                <p>A service should always provide an easy route for users to speak to a human if they need to.</p>
+                                <p>This route should be as fast as possible when decisions are time critical.</p>
+                                <p>Empower humans to make decisions by removing organisational boundaries and ensuring they are experts and multiskilled.</p>
                             </div>
                         </div>
                     </section>
