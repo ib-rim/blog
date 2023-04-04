@@ -209,7 +209,7 @@ export default function GoodServicesPrinciples() {
                             <h2 className={styles.principleName}>Quickly respond to change</h2>
                             <div className={styles.principleDescription}>
                                 <p>Make it easy for users to change things about themselves.</p>
-                                <p>The service should respond quickly and adaptively to a change in a user's circumstances. For example, if a user changes their phone number online, their new phone number should be recognised in a face-to-face service.</p>
+                                <p>The service should respond quickly and adaptively to a change in a user&apos;s circumstances. For example, if a user changes their phone number online, their new phone number should be recognised in a face-to-face service.</p>
                                 <p>Not all change should be universal; always give users the ability to share only what they want to share with the people they want to share it with.</p>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ export default function GoodServicesPrinciples() {
                         <div className={styles.principleText}>
                             <h2 className={styles.principleName}>Clearly explain why a decision has been made</h2>
                             <div className={styles.principleDescription}>
-                                <p>When a decision is made within a service, it should be obvious to a user why this decision has been made and clearly communicated at the point at which it's made.</p>
+                                <p>When a decision is made within a service, it should be obvious to a user why this decision has been made and clearly communicated at the point at which it&apos;s made.</p>
                                 <p>A user should also be given a route to contest this decision if they need to.</p>
                             </div>
                         </div>
